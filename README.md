@@ -1,6 +1,6 @@
 # A-Transfer-Learning-Approach-For-Restaurant-Review-Using-Facial-Emotions
 
-The rapid growth of online restaurant review platforms has significantly influenced consumer decision-making in
+The rapid growth of online restaurant review platforms has significantly influenced consumer decision-making in
 the food and hospitality industry. This paper presents a novel
 approach to restaurant review systems using deep learning to
 analyze facial emotions. By using facial emotion recognition, our
