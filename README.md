@@ -30,7 +30,7 @@ dining experience.
 
 ## Dataset
 
-The **FER2013** dataset consists of images of faces, each classified into one of seven emotions.
+The **FER2013** dataset consists of grey scale images of faces, each classified into one of seven emotions.Images are resized and converted to RGB, allowing compatibility with MobileNetV2.
 
 ## Model Architecture
 The model architecture is based on MobileNetV2 with a custom classification head for emotion recognition. Key components include:
