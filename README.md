@@ -11,7 +11,7 @@ from video or image data captured during dining experiences.
 This data is processed to identify emotional states. Our deep
 learning model is trained on a diverse dataset of facial expressions
 and associated sentiment labels to ensure high accuracy and
-robustness.The system’s outputs provide restaurant managers
+robustness.The model is fine-tuned to classify emotions such as anger, disgust, fear, happiness, sadness, surprise, and neutrality, aiming to provide efficient and real-time emotion detection capabilities which inturn can be used for restaurent review.The system’s outputs provide restaurant managers
 with real-time insights into customer emotions, enhancing their
 ability to respond promptly to service issues and improve overall
 dining experiences. By integrating emotional feedback, the proposed approach offers a richer and more nuanced understanding
@@ -22,8 +22,7 @@ becomes a pivotal tool for data-driven decision-making, enabling
 them to enhance service quality and customer satisfaction.
 For customers, it offers a platform to express emotions and
 preferences effectively, fostering a personalized and enriching
-dining experience.This project implements a facial emotion recognition system using transfer learning with MobileNetV2 on the FER2013 dataset. The model is fine-tuned to classify emotions such as anger, disgust, fear, happiness, sadness, surprise, and neutrality, aiming to provide efficient and real-time emotion detection capabilities which inturn can be used for restaurent review
-
+dining experience.
 ## Project Structure
 
 - **Data**: The FER2013 dataset, divided into `train`, `val`, and `test` directories.
@@ -31,7 +30,7 @@ dining experience.This project implements a facial emotion recognition system us
 
 ## Dataset
 
-The **FER2013** dataset consists of grayscale images of faces, each classified into one of seven emotions. Images are resized and converted to RGB, allowing compatibility with MobileNetV2.
+The **FER2013** dataset consists of images of faces, each classified into one of seven emotions.
 
 ## Model Architecture
 The model architecture is based on MobileNetV2 with a custom classification head for emotion recognition. Key components include:
