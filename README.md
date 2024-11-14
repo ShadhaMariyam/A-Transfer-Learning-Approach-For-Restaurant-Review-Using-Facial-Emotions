@@ -1,3 +1,4 @@
+
 # A-Transfer-Learning-Approach-For-Restaurant-Review-Using-Facial-Emotions
 
 The rapid growth of online restaurant review platforms has significantly influenced consumer decision-making in
@@ -52,6 +53,10 @@ Global Average Pooling Layer: Reduces each feature map to a single value, helpin
 Fully Connected Layers: Includes Dense layers with BatchNormalization and Dropout to improve generalization.
 Output Layer: Dense layer with softmax activation for seven emotion classes.
 This architecture balances efficiency and accuracy, making it suitable for real-time applications with limited computational resources.
+
+![architecture 1](https://github.com/user-attachments/assets/8c72107c-53cf-429f-ada1-7d66d37c8a84)
+![architecture 2](https://github.com/user-attachments/assets/ffe4aff3-e22a-434d-b5ad-bede8e6a3012)
+
 
 ## Training Strategy
 -**Data Augmentation:** Applied transformations such as rotations, zooming, shifts, and horizontal flips to improve generalization.
